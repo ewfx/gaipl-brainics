@@ -1,0 +1,124 @@
+[Incident 1]
+Category: Database  
+Issue: Database CPU spike detected, causing slow queries.  
+Resolution: Identified high-load queries and optimized indexing. Restarted affected database nodes.  
+
+[Incident 2]
+Category: Network  
+Issue: Sudden packet drops on critical application servers.  
+Resolution: Checked firewall rules, restarted network switches, and rerouted traffic.  
+
+[Incident 3]
+Category: Server  
+Issue: High memory usage on web server, leading to slow performance.  
+Resolution: Analyzed running processes, restarted non-essential services, and scaled up instances.  
+
+[Incident 4]
+Category: Application  
+Issue: Authentication failures for multiple users in the portal.  
+Resolution: Reset authentication service, verified AD sync, and provided alternative login methods.  
+
+[Incident 5]
+Category: Disk Storage  
+Issue: Disk space critically low on production database.  
+Resolution: Removed old log files, compressed backups, and extended storage capacity.  
+
+[Incident 6]
+Category: Load Balancer  
+Issue: Uneven traffic distribution causing performance issues.  
+Resolution: Rebalanced server weights, restarted load balancer, and monitored traffic.  
+
+[Incident 7]
+Category: Email  
+Issue: Email delivery failures due to SMTP errors.  
+Resolution: Checked mail server health, verified DNS records, and restarted email service.  
+
+[Incident 8]
+Category: Web Services  
+Issue: API gateway timeout errors impacting multiple applications.  
+Resolution: Increased timeout threshold, optimized backend queries, and restarted API gateway.  
+
+[Incident 9]
+Category: Security  
+Issue: Unauthorized access attempts detected in logs.  
+Resolution: Locked affected accounts, enforced multi-factor authentication, and reviewed security logs.  
+
+[Incident 10]
+Category: Backup & Recovery  
+Issue: Automated nightly backup failures due to insufficient permissions.  
+Resolution: Adjusted permissions, tested backup manually, and reconfigured automation jobs.  
+
+[Incident 11]  
+Category: Database  
+Issue: Slow query execution during peak hours.  
+Resolution: Identified missing indexes, optimized SQL queries, and scheduled maintenance window.  
+
+[Incident 12]  
+Category: Database  
+Issue: Database connection timeout for multiple applications.  
+Resolution: Increased connection pool size, restarted database services, and checked network latency.  
+
+[Incident 13]  
+Category: Network  
+Issue: Users unable to access internal VPN.  
+Resolution: Restarted VPN service, verified firewall policies, and provided alternative connection method.  
+
+[Incident 14]  
+Category: Network  
+Issue: Sudden increase in network latency affecting critical applications.  
+Resolution: Identified root cause in traffic spikes, implemented QoS policies, and scaled network capacity.  
+
+[Incident 15]  
+Category: Server  
+Issue: Web server crash due to memory exhaustion.  
+Resolution: Cleared unused processes, optimized memory allocation, and applied kernel tuning parameters.  
+
+[Incident 16]  
+Category: Server  
+Issue: High CPU utilization on backend servers.  
+Resolution: Identified rogue processes, restarted services, and balanced workload across nodes.  
+
+[Incident 17]  
+Category: Application  
+Issue: Multiple users facing session timeout errors.  
+Resolution: Increased session timeout settings, optimized authentication service, and cleared expired sessions.  
+
+[Incident 18]  
+Category: Application  
+Issue: Reports module failing to generate exports.  
+Resolution: Checked database queries, increased processing timeouts, and cleared temporary cache.  
+
+[Incident 19]  
+Category: Disk Storage  
+Issue: RAID controller failure detected.  
+Resolution: Replaced faulty RAID controller, restored data from redundancy, and validated disk health.  
+
+[Incident 20]  
+Category: Disk Storage  
+Issue: Filesystem corruption detected on application server.  
+Resolution: Ran filesystem repair tool, restored affected files, and scheduled periodic disk checks.  
+
+[Incident 21]  
+Category: Load Balancer  
+Issue: Intermittent 502 Bad Gateway errors observed.  
+Resolution: Restarted affected backend instances, reconfigured load balancer health checks, and monitored logs.  
+
+[Incident 22]  
+Category: Email  
+Issue: Outbound email queue stuck, causing delivery delays.  
+Resolution: Flushed email queue, restarted SMTP service, and checked mail server logs for root cause.  
+
+[Incident 23]  
+Category: Web Services  
+Issue: API returning inconsistent responses for external clients.  
+Resolution: Validated API response payload, checked backend service health, and applied hotfix for stability.  
+
+[Incident 24]  
+Category: Security  
+Issue: Multiple failed SSH login attempts detected on production servers.  
+Resolution: Blocked suspicious IPs, enforced strict password policies, and enabled fail2ban security measures.  
+
+[Incident 25]  
+Category: Backup & Recovery  
+Issue: Backup restoration failing due to checksum mismatch.  
+Resolution: Verified backup integrity, restored from previous successful snapshot, and reconfigured automated backups.  

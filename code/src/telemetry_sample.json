@@ -1,0 +1,5 @@
+[
+    {"id": "1", "description": "CPU usage spike detected on database node", "impact": "Performance degradation"},
+    {"id": "2", "description": "Network latency between web tier and database", "impact": "High response time"},
+    {"id": "3", "description": "Disk I/O bottleneck on application server", "impact": "Slow transactions"}
+]
